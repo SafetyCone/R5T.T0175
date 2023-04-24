@@ -10,19 +10,9 @@ namespace R5T.T0175.Extensions
             return Instances.StringOperator.ToApplicationName(value);
         }
 
-        public static DirectoryName ToDirectoryName(this string value)
+        public static AuthorName ToAuthorName(this string value)
         {
-            return Instances.StringOperator.ToDirectoryName(value);
-        }
-
-        public static DirectoryPath ToDirectoryPath(this string value)
-        {
-            return Instances.StringOperator.ToDirectoryPath(value);
-        }
-
-        public static FileName ToFileName(this string value)
-        {
-            return Instances.StringOperator.ToFileName(value);
+            return Instances.StringOperator.ToAuthorName(value);
         }
     }
 }

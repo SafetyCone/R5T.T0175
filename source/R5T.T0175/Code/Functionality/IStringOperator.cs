@@ -14,21 +14,9 @@ namespace R5T.T0175
             return output;
         }
 
-        public DirectoryName ToDirectoryName(string value)
+        public AuthorName ToAuthorName(string value)
         {
-            var output = new DirectoryName(value);
-            return output;
-        }
-
-        public DirectoryPath ToDirectoryPath(string value)
-        {
-            var output = new DirectoryPath(value);
-            return output;
-        }
-
-        public FileName ToFileName(string value)
-        {
-            var output = new FileName(value);
+            var output = new AuthorName(value);
             return output;
         }
     }
